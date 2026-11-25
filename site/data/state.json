@@ -1,0 +1,2841 @@
+{
+  "mode": "内置参考快照 · PC Race 03:32 UTC / PortWatch 01:46 UTC · 尚未自动扫描",
+  "checked": null,
+  "projects": {
+    "victoryfork": {
+      "name": "victory-fork",
+      "repo": "fxceless/victory-fork",
+      "race": {
+        "stage": 6,
+        "assessment": "2026-11-25T03:32:00Z",
+        "verification": "第三方汇总",
+        "url": "https://vuyp.github.io/gta6-pc-race/",
+        "note": "主分支报告 3–5 FPS；PR 与衍生构建不计入主分支成绩。",
+        "metrics": {
+          "fps": 5,
+          "control": null,
+          "minutes": null,
+          "note": "主分支报告 3–5 FPS；PR 与衍生构建不计入主分支成绩。"
+        }
+      },
+      "seed_fps": 4.3,
+      "seed_gpu": "RTX 4070",
+      "seed_date": "2026-11-25 02:49 UTC",
+      "audit_score": {
+        "source": "race",
+        "stage": 6,
+        "reported": 69,
+        "strict": 41,
+        "fps": 5,
+        "minutes": null,
+        "control": false,
+        "confidence": "C · 第三方转述",
+        "url": "https://vuyp.github.io/gta6-pc-race/",
+        "note": "主分支报告 3–5 FPS；PR 与衍生构建不计入主分支成绩。",
+        "missing": [
+          "同一构建、同一测试的独立可复核证据",
+          "持续游戏内20 FPS",
+          "连续30分钟无崩溃",
+          "可控角色"
+        ],
+        "halted": false,
+        "policy": "4.0",
+        "playable": false,
+        "alternatives": [
+          {
+            "source": "race",
+            "stage": 6,
+            "reported": 69,
+            "strict": 41,
+            "fps": 5,
+            "minutes": null,
+            "control": false,
+            "confidence": "C · 第三方转述",
+            "url": "https://vuyp.github.io/gta6-pc-race/",
+            "note": "主分支报告 3–5 FPS；PR 与衍生构建不计入主分支成绩。",
+            "missing": [
+              "同一构建、同一测试的独立可复核证据",
+              "持续游戏内20 FPS",
+              "连续30分钟无崩溃",
+              "可控角色"
+            ]
+          }
+        ]
+      }
+    },
+    "anyxboxx": {
+      "name": "AnyXboxX",
+      "repo": "",
+      "race": {
+        "stage": 6,
+        "assessment": "2026-11-25T03:32:00Z",
+        "verification": "第三方汇总",
+        "url": "https://vuyp.github.io/gta6-pc-race/",
+        "note": "游戏世界 5.3–6.9 FPS；另有贡献者两任务约45分钟报告，不确认无崩溃。",
+        "metrics": {
+          "fps": 6.9,
+          "control": true,
+          "minutes": null,
+          "note": "游戏世界 5.3–6.9 FPS；另有贡献者两任务约45分钟报告，不确认无崩溃。"
+        }
+      },
+      "seed_fps": 6.9,
+      "seed_gpu": "RTX 4070 SUPER",
+      "seed_date": "2026-11-25 02:49 UTC",
+      "audit_score": {
+        "source": "race",
+        "stage": 6,
+        "reported": 80,
+        "strict": 48,
+        "fps": 6.9,
+        "minutes": null,
+        "control": true,
+        "confidence": "C · 第三方转述",
+        "url": "https://vuyp.github.io/gta6-pc-race/",
+        "note": "游戏世界 5.3–6.9 FPS；另有贡献者两任务约45分钟报告，不确认无崩溃。",
+        "missing": [
+          "同一构建、同一测试的独立可复核证据",
+          "持续游戏内20 FPS",
+          "连续30分钟无崩溃"
+        ],
+        "halted": false,
+        "policy": "4.0",
+        "playable": false,
+        "alternatives": [
+          {
+            "source": "race",
+            "stage": 6,
+            "reported": 80,
+            "strict": 48,
+            "fps": 6.9,
+            "minutes": null,
+            "control": true,
+            "confidence": "C · 第三方转述",
+            "url": "https://vuyp.github.io/gta6-pc-race/",
+            "note": "游戏世界 5.3–6.9 FPS；另有贡献者两任务约45分钟报告，不确认无崩溃。",
+            "missing": [
+              "同一构建、同一测试的独立可复核证据",
+              "持续游戏内20 FPS",
+              "连续30分钟无崩溃"
+            ]
+          }
+        ]
+      }
+    },
+    "ztrx": {
+      "name": "ztrx",
+      "repo": "Zettrox/ztrx",
+      "race": {
+        "stage": 6,
+        "assessment": "2026-11-25T03:32:00Z",
+        "verification": "第三方汇总",
+        "url": "https://vuyp.github.io/gta6-pc-race/",
+        "note": "开场任务 1–3 FPS，报告超过90分钟无崩溃。",
+        "metrics": {
+          "fps": 3,
+          "control": true,
+          "minutes": 90,
+          "note": "开场任务 1–3 FPS，报告超过90分钟无崩溃。"
+        }
+      },
+      "seed_fps": 3,
+      "seed_gpu": "RTX 3050",
+      "seed_date": "2026-11-25 02:49 UTC",
+      "port": {
+        "stage": 6,
+        "fps": 3,
+        "verification": "self-reported / tracker observation",
+        "assessment": "2026-11-25 01:46 UTC",
+        "url": "https://portwatch-vi.xyz/",
+        "note": "PortWatch 报告；非独立复测"
+      },
+      "audit_score": {
+        "source": "race",
+        "stage": 6,
+        "reported": 87,
+        "strict": 52,
+        "fps": 3,
+        "minutes": 90,
+        "control": true,
+        "confidence": "C · 第三方转述",
+        "url": "https://vuyp.github.io/gta6-pc-race/",
+        "note": "开场任务 1–3 FPS，报告超过90分钟无崩溃。",
+        "missing": [
+          "同一构建、同一测试的独立可复核证据",
+          "持续游戏内20 FPS"
+        ],
+        "halted": false,
+        "policy": "4.0",
+        "playable": false,
+        "alternatives": [
+          {
+            "source": "race",
+            "stage": 6,
+            "reported": 87,
+            "strict": 52,
+            "fps": 3,
+            "minutes": 90,
+            "control": true,
+            "confidence": "C · 第三方转述",
+            "url": "https://vuyp.github.io/gta6-pc-race/",
+            "note": "开场任务 1–3 FPS，报告超过90分钟无崩溃。",
+            "missing": [
+              "同一构建、同一测试的独立可复核证据",
+              "持续游戏内20 FPS"
+            ]
+          },
+          {
+            "source": "port",
+            "stage": 6,
+            "reported": 65,
+            "strict": 39,
+            "fps": null,
+            "minutes": null,
+            "control": false,
+            "confidence": "C · 第三方转述",
+            "url": "https://portwatch-vi.xyz/",
+            "note": "PortWatch 报告；非独立复测",
+            "missing": [
+              "同一构建、同一测试的独立可复核证据",
+              "持续游戏内20 FPS",
+              "连续30分钟无崩溃",
+              "可控角色"
+            ]
+          }
+        ]
+      }
+    },
+    "vitoriabr": {
+      "name": "VItoriaBr",
+      "repo": "",
+      "race": {
+        "stage": 6,
+        "assessment": "2026-11-25T03:32:00Z",
+        "verification": "第三方汇总",
+        "url": "https://vuyp.github.io/gta6-pc-race/",
+        "note": "直播转述最高4 FPS、到第二任务；并非独立实测。",
+        "metrics": {
+          "fps": 4,
+          "control": true,
+          "minutes": null,
+          "note": "直播转述最高4 FPS、到第二任务；并非独立实测。"
+        }
+      },
+      "seed_fps": 3,
+      "seed_gpu": "RTX 5060 Ti",
+      "seed_date": "2026-11-25 02:49 UTC",
+      "audit_score": {
+        "source": "race",
+        "stage": 6,
+        "reported": 78,
+        "strict": 46,
+        "fps": 4,
+        "minutes": null,
+        "control": true,
+        "confidence": "C · 第三方转述",
+        "url": "https://vuyp.github.io/gta6-pc-race/",
+        "note": "直播转述最高4 FPS、到第二任务；并非独立实测。",
+        "missing": [
+          "同一构建、同一测试的独立可复核证据",
+          "持续游戏内20 FPS",
+          "连续30分钟无崩溃"
+        ],
+        "halted": false,
+        "policy": "4.0",
+        "playable": false,
+        "alternatives": [
+          {
+            "source": "race",
+            "stage": 6,
+            "reported": 78,
+            "strict": 46,
+            "fps": 4,
+            "minutes": null,
+            "control": true,
+            "confidence": "C · 第三方转述",
+            "url": "https://vuyp.github.io/gta6-pc-race/",
+            "note": "直播转述最高4 FPS、到第二任务；并非独立实测。",
+            "missing": [
+              "同一构建、同一测试的独立可复核证据",
+              "持续游戏内20 FPS",
+              "连续30分钟无崩溃"
+            ]
+          }
+        ]
+      }
+    },
+    "omonkey": {
+      "name": "omonkey",
+      "repo": "",
+      "race": {
+        "stage": 6,
+        "assessment": "2026-11-25T03:32:00Z",
+        "verification": "第三方汇总",
+        "url": "https://vuyp.github.io/gta6-pc-race/",
+        "note": "转述开场场景约5 FPS，玩家缓慢行走。",
+        "metrics": {
+          "fps": 5,
+          "control": true,
+          "minutes": null,
+          "note": "转述开场场景约5 FPS，玩家缓慢行走。"
+        }
+      },
+      "seed_fps": 5,
+      "seed_gpu": "",
+      "seed_date": "2026-11-25 02:49 UTC",
+      "port": {
+        "stage": 6,
+        "fps": 5,
+        "verification": "self-reported / tracker observation",
+        "assessment": "2026-11-25 01:46 UTC",
+        "url": "https://portwatch-vi.xyz/",
+        "note": "PortWatch 报告；非独立复测"
+      },
+      "audit_score": {
+        "source": "race",
+        "stage": 6,
+        "reported": 79,
+        "strict": 47,
+        "fps": 5,
+        "minutes": null,
+        "control": true,
+        "confidence": "C · 第三方转述",
+        "url": "https://vuyp.github.io/gta6-pc-race/",
+        "note": "转述开场场景约5 FPS，玩家缓慢行走。",
+        "missing": [
+          "同一构建、同一测试的独立可复核证据",
+          "持续游戏内20 FPS",
+          "连续30分钟无崩溃"
+        ],
+        "halted": false,
+        "policy": "4.0",
+        "playable": false,
+        "alternatives": [
+          {
+            "source": "race",
+            "stage": 6,
+            "reported": 79,
+            "strict": 47,
+            "fps": 5,
+            "minutes": null,
+            "control": true,
+            "confidence": "C · 第三方转述",
+            "url": "https://vuyp.github.io/gta6-pc-race/",
+            "note": "转述开场场景约5 FPS，玩家缓慢行走。",
+            "missing": [
+              "同一构建、同一测试的独立可复核证据",
+              "持续游戏内20 FPS",
+              "连续30分钟无崩溃"
+            ]
+          },
+          {
+            "source": "port",
+            "stage": 6,
+            "reported": 65,
+            "strict": 39,
+            "fps": null,
+            "minutes": null,
+            "control": false,
+            "confidence": "C · 第三方转述",
+            "url": "https://portwatch-vi.xyz/",
+            "note": "PortWatch 报告；非独立复测",
+            "missing": [
+              "同一构建、同一测试的独立可复核证据",
+              "持续游戏内20 FPS",
+              "连续30分钟无崩溃",
+              "可控角色"
+            ]
+          }
+        ]
+      }
+    },
+    "suri": {
+      "name": "suri",
+      "repo": "",
+      "race": {
+        "stage": 6,
+        "assessment": "2026-11-25T03:32:00Z",
+        "verification": "第三方汇总",
+        "url": "https://vuyp.github.io/gta6-pc-race/",
+        "note": "转述约3 FPS，玩家移动；私有构建。",
+        "metrics": {
+          "fps": 3,
+          "control": true,
+          "minutes": null,
+          "note": "转述约3 FPS，玩家移动；私有构建。"
+        }
+      },
+      "seed_fps": 3,
+      "seed_gpu": "",
+      "seed_date": "2026-11-25 02:49 UTC",
+      "port": {
+        "stage": 6,
+        "fps": 3,
+        "verification": "self-reported / tracker observation",
+        "assessment": "2026-11-25 01:46 UTC",
+        "url": "https://portwatch-vi.xyz/",
+        "note": "PortWatch 报告；非独立复测"
+      },
+      "audit_score": {
+        "source": "race",
+        "stage": 6,
+        "reported": 77,
+        "strict": 46,
+        "fps": 3,
+        "minutes": null,
+        "control": true,
+        "confidence": "C · 第三方转述",
+        "url": "https://vuyp.github.io/gta6-pc-race/",
+        "note": "转述约3 FPS，玩家移动；私有构建。",
+        "missing": [
+          "同一构建、同一测试的独立可复核证据",
+          "持续游戏内20 FPS",
+          "连续30分钟无崩溃"
+        ],
+        "halted": false,
+        "policy": "4.0",
+        "playable": false,
+        "alternatives": [
+          {
+            "source": "race",
+            "stage": 6,
+            "reported": 77,
+            "strict": 46,
+            "fps": 3,
+            "minutes": null,
+            "control": true,
+            "confidence": "C · 第三方转述",
+            "url": "https://vuyp.github.io/gta6-pc-race/",
+            "note": "转述约3 FPS，玩家移动；私有构建。",
+            "missing": [
+              "同一构建、同一测试的独立可复核证据",
+              "持续游戏内20 FPS",
+              "连续30分钟无崩溃"
+            ]
+          },
+          {
+            "source": "port",
+            "stage": 6,
+            "reported": 65,
+            "strict": 39,
+            "fps": null,
+            "minutes": null,
+            "control": false,
+            "confidence": "C · 第三方转述",
+            "url": "https://portwatch-vi.xyz/",
+            "note": "PortWatch 报告；非独立复测",
+            "missing": [
+              "同一构建、同一测试的独立可复核证据",
+              "持续游戏内20 FPS",
+              "连续30分钟无崩溃",
+              "可控角色"
+            ]
+          }
+        ]
+      }
+    },
+    "cgbj": {
+      "name": "CGBJ",
+      "repo": "",
+      "race": {
+        "stage": 6,
+        "assessment": "2026-11-25T03:32:00Z",
+        "verification": "第三方汇总",
+        "url": "https://vuyp.github.io/gta6-pc-race/",
+        "note": "媒体转述可步行和对话，画面不完整。",
+        "metrics": {
+          "fps": null,
+          "control": true,
+          "minutes": null,
+          "note": "媒体转述可步行和对话，画面不完整。"
+        }
+      },
+      "seed_fps": null,
+      "seed_gpu": "",
+      "seed_date": "2026-11-25 02:49 UTC",
+      "audit_score": {
+        "source": "race",
+        "stage": 6,
+        "reported": 75,
+        "strict": 45,
+        "fps": null,
+        "minutes": null,
+        "control": true,
+        "confidence": "C · 第三方转述",
+        "url": "https://vuyp.github.io/gta6-pc-race/",
+        "note": "媒体转述可步行和对话，画面不完整。",
+        "missing": [
+          "同一构建、同一测试的独立可复核证据",
+          "持续游戏内20 FPS",
+          "连续30分钟无崩溃"
+        ],
+        "halted": false,
+        "policy": "4.0",
+        "playable": false,
+        "alternatives": [
+          {
+            "source": "race",
+            "stage": 6,
+            "reported": 75,
+            "strict": 45,
+            "fps": null,
+            "minutes": null,
+            "control": true,
+            "confidence": "C · 第三方转述",
+            "url": "https://vuyp.github.io/gta6-pc-race/",
+            "note": "媒体转述可步行和对话，画面不完整。",
+            "missing": [
+              "同一构建、同一测试的独立可复核证据",
+              "持续游戏内20 FPS",
+              "连续30分钟无崩溃"
+            ]
+          }
+        ]
+      }
+    },
+    "victory": {
+      "name": "VIctory",
+      "repo": "Marvisak/VIctory",
+      "race": {
+        "stage": 6,
+        "assessment": "2026-11-25T03:32:00Z",
+        "verification": "第三方汇总",
+        "url": "https://vuyp.github.io/gta6-pc-race/",
+        "note": "原项目报告每帧1–2秒；PR 6–8分钟不计入主分支。",
+        "metrics": {
+          "fps": 1,
+          "control": null,
+          "minutes": null,
+          "note": "原项目报告每帧1–2秒；PR 6–8分钟不计入主分支。"
+        }
+      },
+      "seed_fps": null,
+      "seed_gpu": "",
+      "seed_date": "2026-11-25 02:49 UTC",
+      "audit_score": {
+        "source": "race",
+        "stage": 6,
+        "reported": 66,
+        "strict": 39,
+        "fps": 1,
+        "minutes": null,
+        "control": false,
+        "confidence": "C · 第三方转述",
+        "url": "https://vuyp.github.io/gta6-pc-race/",
+        "note": "原项目报告每帧1–2秒；PR 6–8分钟不计入主分支。",
+        "missing": [
+          "同一构建、同一测试的独立可复核证据",
+          "持续游戏内20 FPS",
+          "连续30分钟无崩溃",
+          "可控角色"
+        ],
+        "halted": false,
+        "policy": "4.0",
+        "playable": false,
+        "alternatives": [
+          {
+            "source": "race",
+            "stage": 6,
+            "reported": 66,
+            "strict": 39,
+            "fps": 1,
+            "minutes": null,
+            "control": false,
+            "confidence": "C · 第三方转述",
+            "url": "https://vuyp.github.io/gta6-pc-race/",
+            "note": "原项目报告每帧1–2秒；PR 6–8分钟不计入主分支。",
+            "missing": [
+              "同一构建、同一测试的独立可复核证据",
+              "持续游戏内20 FPS",
+              "连续30分钟无崩溃",
+              "可控角色"
+            ]
+          }
+        ]
+      }
+    },
+    "scarlight": {
+      "name": "Scarlight",
+      "repo": "",
+      "race": {
+        "stage": 5,
+        "assessment": "2026-11-25 02:49 UTC",
+        "verification": "第三方汇总",
+        "url": "https://vuyp.github.io/gta6-pc-race/",
+        "note": "Linux/AMD 分支报告光照；未宣称可玩。"
+      },
+      "seed_fps": null,
+      "seed_gpu": "",
+      "seed_date": "2026-11-25 02:49 UTC",
+      "audit_score": {
+        "source": "race",
+        "stage": 5,
+        "reported": 50,
+        "strict": 30,
+        "fps": null,
+        "minutes": null,
+        "control": false,
+        "confidence": "C · 第三方转述",
+        "url": "https://vuyp.github.io/gta6-pc-race/",
+        "note": "Linux/AMD 分支报告光照；未宣称可玩。",
+        "missing": [
+          "同一构建、同一测试的独立可复核证据",
+          "持续游戏内20 FPS",
+          "连续30分钟无崩溃",
+          "可控角色"
+        ],
+        "halted": false,
+        "policy": "4.0",
+        "playable": false,
+        "alternatives": [
+          {
+            "source": "race",
+            "stage": 5,
+            "reported": 50,
+            "strict": 30,
+            "fps": null,
+            "minutes": null,
+            "control": false,
+            "confidence": "C · 第三方转述",
+            "url": "https://vuyp.github.io/gta6-pc-race/",
+            "note": "Linux/AMD 分支报告光照；未宣称可玩。",
+            "missing": [
+              "同一构建、同一测试的独立可复核证据",
+              "持续游戏内20 FPS",
+              "连续30分钟无崩溃",
+              "可控角色"
+            ]
+          }
+        ]
+      }
+    },
+    "fivestarrecomp": {
+      "name": "five-star-recomp",
+      "repo": "",
+      "race": {
+        "stage": 5,
+        "assessment": "2026-11-25 02:49 UTC",
+        "verification": "第三方汇总",
+        "url": "https://vuyp.github.io/gta6-pc-race/",
+        "note": "开场过场和音频；不等于游戏世界。"
+      },
+      "seed_fps": null,
+      "seed_gpu": "",
+      "seed_date": "2026-11-25 02:49 UTC",
+      "audit_score": {
+        "source": "race",
+        "stage": 5,
+        "reported": 50,
+        "strict": 30,
+        "fps": null,
+        "minutes": null,
+        "control": false,
+        "confidence": "C · 第三方转述",
+        "url": "https://vuyp.github.io/gta6-pc-race/",
+        "note": "开场过场和音频；不等于游戏世界。",
+        "missing": [
+          "同一构建、同一测试的独立可复核证据",
+          "持续游戏内20 FPS",
+          "连续30分钟无崩溃",
+          "可控角色"
+        ],
+        "halted": false,
+        "policy": "4.0",
+        "playable": false,
+        "alternatives": [
+          {
+            "source": "race",
+            "stage": 5,
+            "reported": 50,
+            "strict": 30,
+            "fps": null,
+            "minutes": null,
+            "control": false,
+            "confidence": "C · 第三方转述",
+            "url": "https://vuyp.github.io/gta6-pc-race/",
+            "note": "开场过场和音频；不等于游戏世界。",
+            "missing": [
+              "同一构建、同一测试的独立可复核证据",
+              "持续游戏内20 FPS",
+              "连续30分钟无崩溃",
+              "可控角色"
+            ]
+          }
+        ]
+      }
+    },
+    "xcl": {
+      "name": "XCL",
+      "repo": "ivall/xcl",
+      "race": {
+        "stage": 5,
+        "assessment": "2026-11-25 02:49 UTC",
+        "verification": "第三方汇总",
+        "url": "https://vuyp.github.io/gta6-pc-race/",
+        "note": "菜单阶段；未报告实际玩法。"
+      },
+      "seed_fps": null,
+      "seed_gpu": "",
+      "seed_date": "2026-11-25 02:49 UTC",
+      "audit_score": {
+        "source": "race",
+        "stage": 5,
+        "reported": 50,
+        "strict": 30,
+        "fps": null,
+        "minutes": null,
+        "control": false,
+        "confidence": "C · 第三方转述",
+        "url": "https://vuyp.github.io/gta6-pc-race/",
+        "note": "菜单阶段；未报告实际玩法。",
+        "missing": [
+          "同一构建、同一测试的独立可复核证据",
+          "持续游戏内20 FPS",
+          "连续30分钟无崩溃",
+          "可控角色"
+        ],
+        "halted": false,
+        "policy": "4.0",
+        "playable": false,
+        "alternatives": [
+          {
+            "source": "race",
+            "stage": 5,
+            "reported": 50,
+            "strict": 30,
+            "fps": null,
+            "minutes": null,
+            "control": false,
+            "confidence": "C · 第三方转述",
+            "url": "https://vuyp.github.io/gta6-pc-race/",
+            "note": "菜单阶段；未报告实际玩法。",
+            "missing": [
+              "同一构建、同一测试的独立可复核证据",
+              "持续游戏内20 FPS",
+              "连续30分钟无崩溃",
+              "可控角色"
+            ]
+          }
+        ]
+      }
+    },
+    "openscarlettcommunityedition": {
+      "name": "OpenScarlett (Community Edition)",
+      "repo": "",
+      "race": {
+        "stage": 5,
+        "assessment": "2026-11-25 02:49 UTC",
+        "verification": "第三方汇总",
+        "url": "https://vuyp.github.io/gta6-pc-race/",
+        "note": "报告设置与视频；游戏身份仍待核实。"
+      },
+      "seed_fps": null,
+      "seed_gpu": "",
+      "seed_date": "2026-11-25 02:49 UTC",
+      "audit_score": {
+        "source": "race",
+        "stage": 5,
+        "reported": 50,
+        "strict": 30,
+        "fps": null,
+        "minutes": null,
+        "control": false,
+        "confidence": "C · 第三方转述",
+        "url": "https://vuyp.github.io/gta6-pc-race/",
+        "note": "报告设置与视频；游戏身份仍待核实。",
+        "missing": [
+          "同一构建、同一测试的独立可复核证据",
+          "持续游戏内20 FPS",
+          "连续30分钟无崩溃",
+          "可控角色"
+        ],
+        "halted": false,
+        "policy": "4.0",
+        "playable": false,
+        "alternatives": [
+          {
+            "source": "race",
+            "stage": 5,
+            "reported": 50,
+            "strict": 30,
+            "fps": null,
+            "minutes": null,
+            "control": false,
+            "confidence": "C · 第三方转述",
+            "url": "https://vuyp.github.io/gta6-pc-race/",
+            "note": "报告设置与视频；游戏身份仍待核实。",
+            "missing": [
+              "同一构建、同一测试的独立可复核证据",
+              "持续游戏内20 FPS",
+              "连续30分钟无崩溃",
+              "可控角色"
+            ]
+          }
+        ]
+      }
+    },
+    "percyscarlett": {
+      "name": "PercyScarlett",
+      "repo": "",
+      "race": {
+        "stage": 5,
+        "assessment": "2026-11-25 02:49 UTC",
+        "verification": "第三方汇总",
+        "url": "https://vuyp.github.io/gta6-pc-race/",
+        "note": "报告初始设置；截图已撤回。"
+      },
+      "seed_fps": null,
+      "seed_gpu": "",
+      "seed_date": "2026-11-25 02:49 UTC",
+      "audit_score": {
+        "source": "race",
+        "stage": 5,
+        "reported": 50,
+        "strict": 30,
+        "fps": null,
+        "minutes": null,
+        "control": false,
+        "confidence": "C · 第三方转述",
+        "url": "https://vuyp.github.io/gta6-pc-race/",
+        "note": "报告初始设置；截图已撤回。",
+        "missing": [
+          "同一构建、同一测试的独立可复核证据",
+          "持续游戏内20 FPS",
+          "连续30分钟无崩溃",
+          "可控角色"
+        ],
+        "halted": false,
+        "policy": "4.0",
+        "playable": false,
+        "alternatives": [
+          {
+            "source": "race",
+            "stage": 5,
+            "reported": 50,
+            "strict": 30,
+            "fps": null,
+            "minutes": null,
+            "control": false,
+            "confidence": "C · 第三方转述",
+            "url": "https://vuyp.github.io/gta6-pc-race/",
+            "note": "报告初始设置；截图已撤回。",
+            "missing": [
+              "同一构建、同一测试的独立可复核证据",
+              "持续游戏内20 FPS",
+              "连续30分钟无崩溃",
+              "可控角色"
+            ]
+          }
+        ]
+      }
+    },
+    "xbox2windows": {
+      "name": "Xbox2Windows",
+      "repo": "",
+      "race": {
+        "stage": 5,
+        "assessment": "2026-11-25 02:49 UTC",
+        "verification": "第三方汇总",
+        "url": "https://vuyp.github.io/gta6-pc-race/",
+        "note": "诊断运行到载入阶段。"
+      },
+      "seed_fps": null,
+      "seed_gpu": "",
+      "seed_date": "2026-11-25 02:49 UTC",
+      "audit_score": {
+        "source": "race",
+        "stage": 5,
+        "reported": 50,
+        "strict": 30,
+        "fps": null,
+        "minutes": null,
+        "control": false,
+        "confidence": "C · 第三方转述",
+        "url": "https://vuyp.github.io/gta6-pc-race/",
+        "note": "诊断运行到载入阶段。",
+        "missing": [
+          "同一构建、同一测试的独立可复核证据",
+          "持续游戏内20 FPS",
+          "连续30分钟无崩溃",
+          "可控角色"
+        ],
+        "halted": false,
+        "policy": "4.0",
+        "playable": false,
+        "alternatives": [
+          {
+            "source": "race",
+            "stage": 5,
+            "reported": 50,
+            "strict": 30,
+            "fps": null,
+            "minutes": null,
+            "control": false,
+            "confidence": "C · 第三方转述",
+            "url": "https://vuyp.github.io/gta6-pc-race/",
+            "note": "诊断运行到载入阶段。",
+            "missing": [
+              "同一构建、同一测试的独立可复核证据",
+              "持续游戏内20 FPS",
+              "连续30分钟无崩溃",
+              "可控角色"
+            ]
+          }
+        ]
+      }
+    },
+    "openscarlett": {
+      "name": "OpenScarlett",
+      "repo": "",
+      "race": {
+        "stage": 5,
+        "assessment": "2026-11-25 02:49 UTC",
+        "verification": "第三方汇总",
+        "url": "https://vuyp.github.io/gta6-pc-race/",
+        "note": "报告界面及视频。"
+      },
+      "seed_fps": null,
+      "seed_gpu": "",
+      "seed_date": "2026-11-25 02:49 UTC",
+      "audit_score": {
+        "source": "race",
+        "stage": 5,
+        "reported": 50,
+        "strict": 30,
+        "fps": null,
+        "minutes": null,
+        "control": false,
+        "confidence": "C · 第三方转述",
+        "url": "https://vuyp.github.io/gta6-pc-race/",
+        "note": "报告界面及视频。",
+        "missing": [
+          "同一构建、同一测试的独立可复核证据",
+          "持续游戏内20 FPS",
+          "连续30分钟无崩溃",
+          "可控角色"
+        ],
+        "halted": false,
+        "policy": "4.0",
+        "playable": false,
+        "alternatives": [
+          {
+            "source": "race",
+            "stage": 5,
+            "reported": 50,
+            "strict": 30,
+            "fps": null,
+            "minutes": null,
+            "control": false,
+            "confidence": "C · 第三方转述",
+            "url": "https://vuyp.github.io/gta6-pc-race/",
+            "note": "报告界面及视频。",
+            "missing": [
+              "同一构建、同一测试的独立可复核证据",
+              "持续游戏内20 FPS",
+              "连续30分钟无崩溃",
+              "可控角色"
+            ]
+          }
+        ]
+      }
+    },
+    "tuxbox": {
+      "name": "TuxBox",
+      "repo": "",
+      "race": {
+        "stage": 5,
+        "assessment": "2026-11-25 02:49 UTC",
+        "verification": "第三方汇总",
+        "url": "https://vuyp.github.io/gta6-pc-race/",
+        "note": "Linux 报告剧情引入阶段，随后崩溃。"
+      },
+      "seed_fps": null,
+      "seed_gpu": "",
+      "seed_date": "2026-11-25 02:49 UTC",
+      "audit_score": {
+        "source": "race",
+        "stage": 5,
+        "reported": 50,
+        "strict": 30,
+        "fps": null,
+        "minutes": null,
+        "control": false,
+        "confidence": "C · 第三方转述",
+        "url": "https://vuyp.github.io/gta6-pc-race/",
+        "note": "Linux 报告剧情引入阶段，随后崩溃。",
+        "missing": [
+          "同一构建、同一测试的独立可复核证据",
+          "持续游戏内20 FPS",
+          "连续30分钟无崩溃",
+          "可控角色"
+        ],
+        "halted": false,
+        "policy": "4.0",
+        "playable": false,
+        "alternatives": [
+          {
+            "source": "race",
+            "stage": 5,
+            "reported": 50,
+            "strict": 30,
+            "fps": null,
+            "minutes": null,
+            "control": false,
+            "confidence": "C · 第三方转述",
+            "url": "https://vuyp.github.io/gta6-pc-race/",
+            "note": "Linux 报告剧情引入阶段，随后崩溃。",
+            "missing": [
+              "同一构建、同一测试的独立可复核证据",
+              "持续游戏内20 FPS",
+              "连续30分钟无崩溃",
+              "可控角色"
+            ]
+          }
+        ]
+      }
+    },
+    "gta6boottest": {
+      "name": "GTA6-BootTest",
+      "repo": "",
+      "race": {
+        "stage": 5,
+        "assessment": "2026-11-25 02:49 UTC",
+        "verification": "第三方汇总",
+        "url": "https://vuyp.github.io/gta6-pc-race/",
+        "note": "报告首个界面。"
+      },
+      "seed_fps": null,
+      "seed_gpu": "",
+      "seed_date": "2026-11-25 02:49 UTC",
+      "audit_score": {
+        "source": "race",
+        "stage": 5,
+        "reported": 50,
+        "strict": 30,
+        "fps": null,
+        "minutes": null,
+        "control": false,
+        "confidence": "C · 第三方转述",
+        "url": "https://vuyp.github.io/gta6-pc-race/",
+        "note": "报告首个界面。",
+        "missing": [
+          "同一构建、同一测试的独立可复核证据",
+          "持续游戏内20 FPS",
+          "连续30分钟无崩溃",
+          "可控角色"
+        ],
+        "halted": false,
+        "policy": "4.0",
+        "playable": false,
+        "alternatives": [
+          {
+            "source": "race",
+            "stage": 5,
+            "reported": 50,
+            "strict": 30,
+            "fps": null,
+            "minutes": null,
+            "control": false,
+            "confidence": "C · 第三方转述",
+            "url": "https://vuyp.github.io/gta6-pc-race/",
+            "note": "报告首个界面。",
+            "missing": [
+              "同一构建、同一测试的独立可复核证据",
+              "持续游戏内20 FPS",
+              "连续30分钟无崩溃",
+              "可控角色"
+            ]
+          }
+        ]
+      }
+    },
+    "g6shim": {
+      "name": "g6shim",
+      "repo": "",
+      "race": {
+        "stage": 5,
+        "assessment": "2026-11-25 02:49 UTC",
+        "verification": "第三方汇总",
+        "url": "https://vuyp.github.io/gta6-pc-race/",
+        "note": "报告账号选择界面。"
+      },
+      "seed_fps": null,
+      "seed_gpu": "",
+      "seed_date": "2026-11-25 02:49 UTC",
+      "audit_score": {
+        "source": "race",
+        "stage": 5,
+        "reported": 50,
+        "strict": 30,
+        "fps": null,
+        "minutes": null,
+        "control": false,
+        "confidence": "C · 第三方转述",
+        "url": "https://vuyp.github.io/gta6-pc-race/",
+        "note": "报告账号选择界面。",
+        "missing": [
+          "同一构建、同一测试的独立可复核证据",
+          "持续游戏内20 FPS",
+          "连续30分钟无崩溃",
+          "可控角色"
+        ],
+        "halted": false,
+        "policy": "4.0",
+        "playable": false,
+        "alternatives": [
+          {
+            "source": "race",
+            "stage": 5,
+            "reported": 50,
+            "strict": 30,
+            "fps": null,
+            "minutes": null,
+            "control": false,
+            "confidence": "C · 第三方转述",
+            "url": "https://vuyp.github.io/gta6-pc-race/",
+            "note": "报告账号选择界面。",
+            "missing": [
+              "同一构建、同一测试的独立可复核证据",
+              "持续游戏内20 FPS",
+              "连续30分钟无崩溃",
+              "可控角色"
+            ]
+          }
+        ]
+      }
+    },
+    "leonida": {
+      "name": "Leonida",
+      "repo": "",
+      "race": {
+        "stage": 4,
+        "assessment": "2026-11-25 02:49 UTC",
+        "verification": "第三方汇总",
+        "url": "https://vuyp.github.io/gta6-pc-race/",
+        "note": "报告停止；公开版权通知。",
+        "halted": true
+      },
+      "seed_fps": null,
+      "seed_gpu": "",
+      "seed_date": "2026-11-25 02:49 UTC",
+      "audit_score": {
+        "source": "race",
+        "stage": 4,
+        "reported": 35,
+        "strict": 21,
+        "fps": null,
+        "minutes": null,
+        "control": false,
+        "confidence": "C · 第三方转述",
+        "url": "https://vuyp.github.io/gta6-pc-race/",
+        "note": "报告停止；公开版权通知。",
+        "missing": [
+          "同一构建、同一测试的独立可复核证据",
+          "持续游戏内20 FPS",
+          "连续30分钟无崩溃",
+          "可控角色"
+        ],
+        "halted": true,
+        "policy": "4.0",
+        "playable": false,
+        "alternatives": [
+          {
+            "source": "race",
+            "stage": 4,
+            "reported": 35,
+            "strict": 21,
+            "fps": null,
+            "minutes": null,
+            "control": false,
+            "confidence": "C · 第三方转述",
+            "url": "https://vuyp.github.io/gta6-pc-race/",
+            "note": "报告停止；公开版权通知。",
+            "missing": [
+              "同一构建、同一测试的独立可复核证据",
+              "持续游戏内20 FPS",
+              "连续30分钟无崩溃",
+              "可控角色"
+            ]
+          }
+        ]
+      }
+    },
+    "holyinteroperability": {
+      "name": "Holy-Interoperability",
+      "repo": "",
+      "race": {
+        "stage": 4,
+        "assessment": "2026-11-25 02:49 UTC",
+        "verification": "第三方汇总",
+        "url": "https://vuyp.github.io/gta6-pc-race/",
+        "note": "首帧报告，内容未核实。"
+      },
+      "seed_fps": null,
+      "seed_gpu": "",
+      "seed_date": "2026-11-25 02:49 UTC",
+      "audit_score": {
+        "source": "race",
+        "stage": 4,
+        "reported": 35,
+        "strict": 21,
+        "fps": null,
+        "minutes": null,
+        "control": false,
+        "confidence": "C · 第三方转述",
+        "url": "https://vuyp.github.io/gta6-pc-race/",
+        "note": "首帧报告，内容未核实。",
+        "missing": [
+          "同一构建、同一测试的独立可复核证据",
+          "持续游戏内20 FPS",
+          "连续30分钟无崩溃",
+          "可控角色"
+        ],
+        "halted": false,
+        "policy": "4.0",
+        "playable": false,
+        "alternatives": [
+          {
+            "source": "race",
+            "stage": 4,
+            "reported": 35,
+            "strict": 21,
+            "fps": null,
+            "minutes": null,
+            "control": false,
+            "confidence": "C · 第三方转述",
+            "url": "https://vuyp.github.io/gta6-pc-race/",
+            "note": "首帧报告，内容未核实。",
+            "missing": [
+              "同一构建、同一测试的独立可复核证据",
+              "持续游戏内20 FPS",
+              "连续30分钟无崩溃",
+              "可控角色"
+            ]
+          }
+        ]
+      }
+    },
+    "palmetto": {
+      "name": "palmetto",
+      "repo": "",
+      "race": {
+        "stage": 4,
+        "assessment": "2026-11-25 02:49 UTC",
+        "verification": "第三方汇总",
+        "url": "https://vuyp.github.io/gta6-pc-race/",
+        "note": "黑屏帧输出。"
+      },
+      "seed_fps": null,
+      "seed_gpu": "",
+      "seed_date": "2026-11-25 02:49 UTC",
+      "audit_score": {
+        "source": "race",
+        "stage": 4,
+        "reported": 35,
+        "strict": 21,
+        "fps": null,
+        "minutes": null,
+        "control": false,
+        "confidence": "C · 第三方转述",
+        "url": "https://vuyp.github.io/gta6-pc-race/",
+        "note": "黑屏帧输出。",
+        "missing": [
+          "同一构建、同一测试的独立可复核证据",
+          "持续游戏内20 FPS",
+          "连续30分钟无崩溃",
+          "可控角色"
+        ],
+        "halted": false,
+        "policy": "4.0",
+        "playable": false,
+        "alternatives": [
+          {
+            "source": "race",
+            "stage": 4,
+            "reported": 35,
+            "strict": 21,
+            "fps": null,
+            "minutes": null,
+            "control": false,
+            "confidence": "C · 第三方转述",
+            "url": "https://vuyp.github.io/gta6-pc-race/",
+            "note": "黑屏帧输出。",
+            "missing": [
+              "同一构建、同一测试的独立可复核证据",
+              "持续游戏内20 FPS",
+              "连续30分钟无崩溃",
+              "可控角色"
+            ]
+          }
+        ]
+      }
+    },
+    "xboxemulator": {
+      "name": "xbox-emulator",
+      "repo": "",
+      "race": {
+        "stage": 3,
+        "assessment": "2026-11-25 02:49 UTC",
+        "verification": "第三方汇总",
+        "url": "https://vuyp.github.io/gta6-pc-race/",
+        "note": "二手消息称初始化图形设备。"
+      },
+      "seed_fps": null,
+      "seed_gpu": "",
+      "seed_date": "2026-11-25 02:49 UTC",
+      "audit_score": {
+        "source": "race",
+        "stage": 3,
+        "reported": 22,
+        "strict": 13,
+        "fps": null,
+        "minutes": null,
+        "control": false,
+        "confidence": "C · 第三方转述",
+        "url": "https://vuyp.github.io/gta6-pc-race/",
+        "note": "二手消息称初始化图形设备。",
+        "missing": [
+          "同一构建、同一测试的独立可复核证据",
+          "持续游戏内20 FPS",
+          "连续30分钟无崩溃",
+          "可控角色"
+        ],
+        "halted": false,
+        "policy": "4.0",
+        "playable": false,
+        "alternatives": [
+          {
+            "source": "race",
+            "stage": 3,
+            "reported": 22,
+            "strict": 13,
+            "fps": null,
+            "minutes": null,
+            "control": false,
+            "confidence": "C · 第三方转述",
+            "url": "https://vuyp.github.io/gta6-pc-race/",
+            "note": "二手消息称初始化图形设备。",
+            "missing": [
+              "同一构建、同一测试的独立可复核证据",
+              "持续游戏内20 FPS",
+              "连续30分钟无崩溃",
+              "可控角色"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "events": [
+    {
+      "id": "seed1",
+      "source": "PC Race",
+      "title": "AnyXboxX 报告过场帧率变化",
+      "when": "2026-11-25T02:49:00Z",
+      "url": "https://vuyp.github.io/gta6-pc-race/#updates",
+      "project": "AnyXboxX",
+      "category": "性能",
+      "analysis": "过场帧率不能与实际游戏帧率直接合并。"
+    },
+    {
+      "id": "seed2",
+      "source": "PortWatch",
+      "title": "ztrx 报告长时间运行未崩溃",
+      "when": "2026-11-25T01:46:00Z",
+      "url": "https://portwatch-vi.xyz/",
+      "project": "ztrx",
+      "category": "稳定性",
+      "analysis": "稳定性报告有进展，但仍远低于严格可玩帧率。"
+    },
+    {
+      "id": "seed3",
+      "source": "PortWatch",
+      "title": "Leonida 相关版权通知",
+      "when": "2026-11-24",
+      "url": "https://github.com/github/dmca/blob/master/2026/11/2026-11-24-take-two.md",
+      "project": "Leonida",
+      "category": "版权动态",
+      "analysis": "公开通知；不推断其他项目状态。"
+    }
+  ],
+  "health": {
+    "PortWatch": {
+      "status": "snapshot",
+      "upstream": "2026-11-25T01:46:22Z"
+    },
+    "PC Race": {
+      "status": "snapshot",
+      "upstream": "2026-11-25T03:32:00Z"
+    },
+    "GitHub": {
+      "status": "disabled"
+    },
+    "Discovery": {
+      "status": "disabled"
+    }
+  },
+  "history": [],
+  "candidates": [],
+  "forecast": {
+    "text": "about 2 days",
+    "date_text": "Around early on Fri 27 Nov.",
+    "as_of": "2026-11-25T03:32:00Z",
+    "url": "https://vuyp.github.io/gta6-pc-race/#forecast",
+    "note": "PC Race 的 AI 预测；不是发布日期。"
+  },
+  "ledger": [
+    {
+      "seq": 1,
+      "at": "2026-11-25T03:32:00Z",
+      "kind": "baseline",
+      "project": "anyxboxx",
+      "before": null,
+      "after": {
+        "name": "AnyXboxX",
+        "repo": "",
+        "status": "tracked",
+        "score": {
+          "source": "race",
+          "stage": 6,
+          "reported": 80,
+          "strict": 48,
+          "fps": 6.9,
+          "minutes": null,
+          "control": true,
+          "confidence": "C · 第三方转述",
+          "url": "https://vuyp.github.io/gta6-pc-race/",
+          "note": "游戏世界 5.3–6.9 FPS；另有贡献者两任务约45分钟报告，不确认无崩溃。",
+          "missing": [
+            "同一构建、同一测试的独立可复核证据",
+            "持续游戏内20 FPS",
+            "连续30分钟无崩溃"
+          ],
+          "halted": false,
+          "policy": "4.0",
+          "playable": false,
+          "alternatives": [
+            {
+              "source": "race",
+              "stage": 6,
+              "reported": 80,
+              "strict": 48,
+              "fps": 6.9,
+              "minutes": null,
+              "control": true,
+              "confidence": "C · 第三方转述",
+              "url": "https://vuyp.github.io/gta6-pc-race/",
+              "note": "游戏世界 5.3–6.9 FPS；另有贡献者两任务约45分钟报告，不确认无崩溃。",
+              "missing": [
+                "同一构建、同一测试的独立可复核证据",
+                "持续游戏内20 FPS",
+                "连续30分钟无崩溃"
+              ]
+            }
+          ]
+        },
+        "race": {
+          "stage": 6,
+          "verification": "第三方汇总",
+          "url": "https://vuyp.github.io/gta6-pc-race/",
+          "note": "游戏世界 5.3–6.9 FPS；另有贡献者两任务约45分钟报告，不确认无崩溃。",
+          "metrics": {
+            "fps": 6.9,
+            "control": true,
+            "minutes": null,
+            "note": "游戏世界 5.3–6.9 FPS；另有贡献者两任务约45分钟报告，不确认无崩溃。"
+          }
+        }
+      },
+      "prev": "GENESIS",
+      "hash": "682901aba61ecdfe6484299c29c531f567e5c16b7809fd2cf76ffd79a01e3cbd"
+    },
+    {
+      "seq": 2,
+      "at": "2026-11-25T03:32:00Z",
+      "kind": "baseline",
+      "project": "cgbj",
+      "before": null,
+      "after": {
+        "name": "CGBJ",
+        "repo": "",
+        "status": "tracked",
+        "score": {
+          "source": "race",
+          "stage": 6,
+          "reported": 75,
+          "strict": 45,
+          "fps": null,
+          "minutes": null,
+          "control": true,
+          "confidence": "C · 第三方转述",
+          "url": "https://vuyp.github.io/gta6-pc-race/",
+          "note": "媒体转述可步行和对话，画面不完整。",
+          "missing": [
+            "同一构建、同一测试的独立可复核证据",
+            "持续游戏内20 FPS",
+            "连续30分钟无崩溃"
+          ],
+          "halted": false,
+          "policy": "4.0",
+          "playable": false,
+          "alternatives": [
+            {
+              "source": "race",
+              "stage": 6,
+              "reported": 75,
+              "strict": 45,
+              "fps": null,
+              "minutes": null,
+              "control": true,
+              "confidence": "C · 第三方转述",
+              "url": "https://vuyp.github.io/gta6-pc-race/",
+              "note": "媒体转述可步行和对话，画面不完整。",
+              "missing": [
+                "同一构建、同一测试的独立可复核证据",
+                "持续游戏内20 FPS",
+                "连续30分钟无崩溃"
+              ]
+            }
+          ]
+        },
+        "race": {
+          "stage": 6,
+          "verification": "第三方汇总",
+          "url": "https://vuyp.github.io/gta6-pc-race/",
+          "note": "媒体转述可步行和对话，画面不完整。",
+          "metrics": {
+            "fps": null,
+            "control": true,
+            "minutes": null,
+            "note": "媒体转述可步行和对话，画面不完整。"
+          }
+        }
+      },
+      "prev": "682901aba61ecdfe6484299c29c531f567e5c16b7809fd2cf76ffd79a01e3cbd",
+      "hash": "ba963128ac2b1733d01625544b0eb24cf808a72f020f722ee4dc23d9e5fc1572"
+    },
+    {
+      "seq": 3,
+      "at": "2026-11-25T03:32:00Z",
+      "kind": "baseline",
+      "project": "fivestarrecomp",
+      "before": null,
+      "after": {
+        "name": "five-star-recomp",
+        "repo": "",
+        "status": "tracked",
+        "score": {
+          "source": "race",
+          "stage": 5,
+          "reported": 50,
+          "strict": 30,
+          "fps": null,
+          "minutes": null,
+          "control": false,
+          "confidence": "C · 第三方转述",
+          "url": "https://vuyp.github.io/gta6-pc-race/",
+          "note": "开场过场和音频；不等于游戏世界。",
+          "missing": [
+            "同一构建、同一测试的独立可复核证据",
+            "持续游戏内20 FPS",
+            "连续30分钟无崩溃",
+            "可控角色"
+          ],
+          "halted": false,
+          "policy": "4.0",
+          "playable": false,
+          "alternatives": [
+            {
+              "source": "race",
+              "stage": 5,
+              "reported": 50,
+              "strict": 30,
+              "fps": null,
+              "minutes": null,
+              "control": false,
+              "confidence": "C · 第三方转述",
+              "url": "https://vuyp.github.io/gta6-pc-race/",
+              "note": "开场过场和音频；不等于游戏世界。",
+              "missing": [
+                "同一构建、同一测试的独立可复核证据",
+                "持续游戏内20 FPS",
+                "连续30分钟无崩溃",
+                "可控角色"
+              ]
+            }
+          ]
+        },
+        "race": {
+          "stage": 5,
+          "verification": "第三方汇总",
+          "url": "https://vuyp.github.io/gta6-pc-race/",
+          "note": "开场过场和音频；不等于游戏世界。"
+        }
+      },
+      "prev": "ba963128ac2b1733d01625544b0eb24cf808a72f020f722ee4dc23d9e5fc1572",
+      "hash": "c7345cdcc9ee5f13bb26c129677753245fc8607d503bc1e36bfe49816773ca52"
+    },
+    {
+      "seq": 4,
+      "at": "2026-11-25T03:32:00Z",
+      "kind": "baseline",
+      "project": "g6shim",
+      "before": null,
+      "after": {
+        "name": "g6shim",
+        "repo": "",
+        "status": "tracked",
+        "score": {
+          "source": "race",
+          "stage": 5,
+          "reported": 50,
+          "strict": 30,
+          "fps": null,
+          "minutes": null,
+          "control": false,
+          "confidence": "C · 第三方转述",
+          "url": "https://vuyp.github.io/gta6-pc-race/",
+          "note": "报告账号选择界面。",
+          "missing": [
+            "同一构建、同一测试的独立可复核证据",
+            "持续游戏内20 FPS",
+            "连续30分钟无崩溃",
+            "可控角色"
+          ],
+          "halted": false,
+          "policy": "4.0",
+          "playable": false,
+          "alternatives": [
+            {
+              "source": "race",
+              "stage": 5,
+              "reported": 50,
+              "strict": 30,
+              "fps": null,
+              "minutes": null,
+              "control": false,
+              "confidence": "C · 第三方转述",
+              "url": "https://vuyp.github.io/gta6-pc-race/",
+              "note": "报告账号选择界面。",
+              "missing": [
+                "同一构建、同一测试的独立可复核证据",
+                "持续游戏内20 FPS",
+                "连续30分钟无崩溃",
+                "可控角色"
+              ]
+            }
+          ]
+        },
+        "race": {
+          "stage": 5,
+          "verification": "第三方汇总",
+          "url": "https://vuyp.github.io/gta6-pc-race/",
+          "note": "报告账号选择界面。"
+        }
+      },
+      "prev": "c7345cdcc9ee5f13bb26c129677753245fc8607d503bc1e36bfe49816773ca52",
+      "hash": "540dae33394e319513f7b3c887300972650c30177f7be71d4ccbbb187c7377af"
+    },
+    {
+      "seq": 5,
+      "at": "2026-11-25T03:32:00Z",
+      "kind": "baseline",
+      "project": "gta6boottest",
+      "before": null,
+      "after": {
+        "name": "GTA6-BootTest",
+        "repo": "",
+        "status": "tracked",
+        "score": {
+          "source": "race",
+          "stage": 5,
+          "reported": 50,
+          "strict": 30,
+          "fps": null,
+          "minutes": null,
+          "control": false,
+          "confidence": "C · 第三方转述",
+          "url": "https://vuyp.github.io/gta6-pc-race/",
+          "note": "报告首个界面。",
+          "missing": [
+            "同一构建、同一测试的独立可复核证据",
+            "持续游戏内20 FPS",
+            "连续30分钟无崩溃",
+            "可控角色"
+          ],
+          "halted": false,
+          "policy": "4.0",
+          "playable": false,
+          "alternatives": [
+            {
+              "source": "race",
+              "stage": 5,
+              "reported": 50,
+              "strict": 30,
+              "fps": null,
+              "minutes": null,
+              "control": false,
+              "confidence": "C · 第三方转述",
+              "url": "https://vuyp.github.io/gta6-pc-race/",
+              "note": "报告首个界面。",
+              "missing": [
+                "同一构建、同一测试的独立可复核证据",
+                "持续游戏内20 FPS",
+                "连续30分钟无崩溃",
+                "可控角色"
+              ]
+            }
+          ]
+        },
+        "race": {
+          "stage": 5,
+          "verification": "第三方汇总",
+          "url": "https://vuyp.github.io/gta6-pc-race/",
+          "note": "报告首个界面。"
+        }
+      },
+      "prev": "540dae33394e319513f7b3c887300972650c30177f7be71d4ccbbb187c7377af",
+      "hash": "6bb10685a7910ccf63de6113931155a2e02ea549a508b884ccb8f8534ca9d524"
+    },
+    {
+      "seq": 6,
+      "at": "2026-11-25T03:32:00Z",
+      "kind": "baseline",
+      "project": "holyinteroperability",
+      "before": null,
+      "after": {
+        "name": "Holy-Interoperability",
+        "repo": "",
+        "status": "tracked",
+        "score": {
+          "source": "race",
+          "stage": 4,
+          "reported": 35,
+          "strict": 21,
+          "fps": null,
+          "minutes": null,
+          "control": false,
+          "confidence": "C · 第三方转述",
+          "url": "https://vuyp.github.io/gta6-pc-race/",
+          "note": "首帧报告，内容未核实。",
+          "missing": [
+            "同一构建、同一测试的独立可复核证据",
+            "持续游戏内20 FPS",
+            "连续30分钟无崩溃",
+            "可控角色"
+          ],
+          "halted": false,
+          "policy": "4.0",
+          "playable": false,
+          "alternatives": [
+            {
+              "source": "race",
+              "stage": 4,
+              "reported": 35,
+              "strict": 21,
+              "fps": null,
+              "minutes": null,
+              "control": false,
+              "confidence": "C · 第三方转述",
+              "url": "https://vuyp.github.io/gta6-pc-race/",
+              "note": "首帧报告，内容未核实。",
+              "missing": [
+                "同一构建、同一测试的独立可复核证据",
+                "持续游戏内20 FPS",
+                "连续30分钟无崩溃",
+                "可控角色"
+              ]
+            }
+          ]
+        },
+        "race": {
+          "stage": 4,
+          "verification": "第三方汇总",
+          "url": "https://vuyp.github.io/gta6-pc-race/",
+          "note": "首帧报告，内容未核实。"
+        }
+      },
+      "prev": "6bb10685a7910ccf63de6113931155a2e02ea549a508b884ccb8f8534ca9d524",
+      "hash": "20f847b0687dd9bb35937dfe45177705e6f879ad815a199b508065667f9f17c9"
+    },
+    {
+      "seq": 7,
+      "at": "2026-11-25T03:32:00Z",
+      "kind": "baseline",
+      "project": "leonida",
+      "before": null,
+      "after": {
+        "name": "Leonida",
+        "repo": "",
+        "status": "paused",
+        "score": {
+          "source": "race",
+          "stage": 4,
+          "reported": 35,
+          "strict": 21,
+          "fps": null,
+          "minutes": null,
+          "control": false,
+          "confidence": "C · 第三方转述",
+          "url": "https://vuyp.github.io/gta6-pc-race/",
+          "note": "报告停止；公开版权通知。",
+          "missing": [
+            "同一构建、同一测试的独立可复核证据",
+            "持续游戏内20 FPS",
+            "连续30分钟无崩溃",
+            "可控角色"
+          ],
+          "halted": true,
+          "policy": "4.0",
+          "playable": false,
+          "alternatives": [
+            {
+              "source": "race",
+              "stage": 4,
+              "reported": 35,
+              "strict": 21,
+              "fps": null,
+              "minutes": null,
+              "control": false,
+              "confidence": "C · 第三方转述",
+              "url": "https://vuyp.github.io/gta6-pc-race/",
+              "note": "报告停止；公开版权通知。",
+              "missing": [
+                "同一构建、同一测试的独立可复核证据",
+                "持续游戏内20 FPS",
+                "连续30分钟无崩溃",
+                "可控角色"
+              ]
+            }
+          ]
+        },
+        "race": {
+          "stage": 4,
+          "verification": "第三方汇总",
+          "url": "https://vuyp.github.io/gta6-pc-race/",
+          "note": "报告停止；公开版权通知。",
+          "halted": true
+        }
+      },
+      "prev": "20f847b0687dd9bb35937dfe45177705e6f879ad815a199b508065667f9f17c9",
+      "hash": "f36cb823ba07456e3bcbabd3a22dbb1f60bafa1eb145f15cd865550d6e783d65"
+    },
+    {
+      "seq": 8,
+      "at": "2026-11-25T03:32:00Z",
+      "kind": "baseline",
+      "project": "omonkey",
+      "before": null,
+      "after": {
+        "name": "omonkey",
+        "repo": "",
+        "status": "tracked",
+        "score": {
+          "source": "race",
+          "stage": 6,
+          "reported": 79,
+          "strict": 47,
+          "fps": 5,
+          "minutes": null,
+          "control": true,
+          "confidence": "C · 第三方转述",
+          "url": "https://vuyp.github.io/gta6-pc-race/",
+          "note": "转述开场场景约5 FPS，玩家缓慢行走。",
+          "missing": [
+            "同一构建、同一测试的独立可复核证据",
+            "持续游戏内20 FPS",
+            "连续30分钟无崩溃"
+          ],
+          "halted": false,
+          "policy": "4.0",
+          "playable": false,
+          "alternatives": [
+            {
+              "source": "race",
+              "stage": 6,
+              "reported": 79,
+              "strict": 47,
+              "fps": 5,
+              "minutes": null,
+              "control": true,
+              "confidence": "C · 第三方转述",
+              "url": "https://vuyp.github.io/gta6-pc-race/",
+              "note": "转述开场场景约5 FPS，玩家缓慢行走。",
+              "missing": [
+                "同一构建、同一测试的独立可复核证据",
+                "持续游戏内20 FPS",
+                "连续30分钟无崩溃"
+              ]
+            },
+            {
+              "source": "port",
+              "stage": 6,
+              "reported": 65,
+              "strict": 39,
+              "fps": null,
+              "minutes": null,
+              "control": false,
+              "confidence": "C · 第三方转述",
+              "url": "https://portwatch-vi.xyz/",
+              "note": "PortWatch 报告；非独立复测",
+              "missing": [
+                "同一构建、同一测试的独立可复核证据",
+                "持续游戏内20 FPS",
+                "连续30分钟无崩溃",
+                "可控角色"
+              ]
+            }
+          ]
+        },
+        "race": {
+          "stage": 6,
+          "verification": "第三方汇总",
+          "url": "https://vuyp.github.io/gta6-pc-race/",
+          "note": "转述开场场景约5 FPS，玩家缓慢行走。",
+          "metrics": {
+            "fps": 5,
+            "control": true,
+            "minutes": null,
+            "note": "转述开场场景约5 FPS，玩家缓慢行走。"
+          }
+        },
+        "port": {
+          "stage": 6,
+          "fps": 5,
+          "verification": "self-reported / tracker observation",
+          "url": "https://portwatch-vi.xyz/",
+          "note": "PortWatch 报告；非独立复测"
+        }
+      },
+      "prev": "f36cb823ba07456e3bcbabd3a22dbb1f60bafa1eb145f15cd865550d6e783d65",
+      "hash": "982a077b727ca00b6aabd1beffae5b550163a13fb55615b62379e3834dd3621f"
+    },
+    {
+      "seq": 9,
+      "at": "2026-11-25T03:32:00Z",
+      "kind": "baseline",
+      "project": "openscarlett",
+      "before": null,
+      "after": {
+        "name": "OpenScarlett",
+        "repo": "",
+        "status": "tracked",
+        "score": {
+          "source": "race",
+          "stage": 5,
+          "reported": 50,
+          "strict": 30,
+          "fps": null,
+          "minutes": null,
+          "control": false,
+          "confidence": "C · 第三方转述",
+          "url": "https://vuyp.github.io/gta6-pc-race/",
+          "note": "报告界面及视频。",
+          "missing": [
+            "同一构建、同一测试的独立可复核证据",
+            "持续游戏内20 FPS",
+            "连续30分钟无崩溃",
+            "可控角色"
+          ],
+          "halted": false,
+          "policy": "4.0",
+          "playable": false,
+          "alternatives": [
+            {
+              "source": "race",
+              "stage": 5,
+              "reported": 50,
+              "strict": 30,
+              "fps": null,
+              "minutes": null,
+              "control": false,
+              "confidence": "C · 第三方转述",
+              "url": "https://vuyp.github.io/gta6-pc-race/",
+              "note": "报告界面及视频。",
+              "missing": [
+                "同一构建、同一测试的独立可复核证据",
+                "持续游戏内20 FPS",
+                "连续30分钟无崩溃",
+                "可控角色"
+              ]
+            }
+          ]
+        },
+        "race": {
+          "stage": 5,
+          "verification": "第三方汇总",
+          "url": "https://vuyp.github.io/gta6-pc-race/",
+          "note": "报告界面及视频。"
+        }
+      },
+      "prev": "982a077b727ca00b6aabd1beffae5b550163a13fb55615b62379e3834dd3621f",
+      "hash": "e37e7f10c2802a36e9005c6e1b2fd27aa3e7d7b9f2c5c55f7ed0cacd3ceed6d5"
+    },
+    {
+      "seq": 10,
+      "at": "2026-11-25T03:32:00Z",
+      "kind": "baseline",
+      "project": "openscarlettcommunityedition",
+      "before": null,
+      "after": {
+        "name": "OpenScarlett (Community Edition)",
+        "repo": "",
+        "status": "tracked",
+        "score": {
+          "source": "race",
+          "stage": 5,
+          "reported": 50,
+          "strict": 30,
+          "fps": null,
+          "minutes": null,
+          "control": false,
+          "confidence": "C · 第三方转述",
+          "url": "https://vuyp.github.io/gta6-pc-race/",
+          "note": "报告设置与视频；游戏身份仍待核实。",
+          "missing": [
+            "同一构建、同一测试的独立可复核证据",
+            "持续游戏内20 FPS",
+            "连续30分钟无崩溃",
+            "可控角色"
+          ],
+          "halted": false,
+          "policy": "4.0",
+          "playable": false,
+          "alternatives": [
+            {
+              "source": "race",
+              "stage": 5,
+              "reported": 50,
+              "strict": 30,
+              "fps": null,
+              "minutes": null,
+              "control": false,
+              "confidence": "C · 第三方转述",
+              "url": "https://vuyp.github.io/gta6-pc-race/",
+              "note": "报告设置与视频；游戏身份仍待核实。",
+              "missing": [
+                "同一构建、同一测试的独立可复核证据",
+                "持续游戏内20 FPS",
+                "连续30分钟无崩溃",
+                "可控角色"
+              ]
+            }
+          ]
+        },
+        "race": {
+          "stage": 5,
+          "verification": "第三方汇总",
+          "url": "https://vuyp.github.io/gta6-pc-race/",
+          "note": "报告设置与视频；游戏身份仍待核实。"
+        }
+      },
+      "prev": "e37e7f10c2802a36e9005c6e1b2fd27aa3e7d7b9f2c5c55f7ed0cacd3ceed6d5",
+      "hash": "fdfb2a0d8ce63ec1d19ed562514f74174b834e3e65b9f177d2aad59ce39ac771"
+    },
+    {
+      "seq": 11,
+      "at": "2026-11-25T03:32:00Z",
+      "kind": "baseline",
+      "project": "palmetto",
+      "before": null,
+      "after": {
+        "name": "palmetto",
+        "repo": "",
+        "status": "tracked",
+        "score": {
+          "source": "race",
+          "stage": 4,
+          "reported": 35,
+          "strict": 21,
+          "fps": null,
+          "minutes": null,
+          "control": false,
+          "confidence": "C · 第三方转述",
+          "url": "https://vuyp.github.io/gta6-pc-race/",
+          "note": "黑屏帧输出。",
+          "missing": [
+            "同一构建、同一测试的独立可复核证据",
+            "持续游戏内20 FPS",
+            "连续30分钟无崩溃",
+            "可控角色"
+          ],
+          "halted": false,
+          "policy": "4.0",
+          "playable": false,
+          "alternatives": [
+            {
+              "source": "race",
+              "stage": 4,
+              "reported": 35,
+              "strict": 21,
+              "fps": null,
+              "minutes": null,
+              "control": false,
+              "confidence": "C · 第三方转述",
+              "url": "https://vuyp.github.io/gta6-pc-race/",
+              "note": "黑屏帧输出。",
+              "missing": [
+                "同一构建、同一测试的独立可复核证据",
+                "持续游戏内20 FPS",
+                "连续30分钟无崩溃",
+                "可控角色"
+              ]
+            }
+          ]
+        },
+        "race": {
+          "stage": 4,
+          "verification": "第三方汇总",
+          "url": "https://vuyp.github.io/gta6-pc-race/",
+          "note": "黑屏帧输出。"
+        }
+      },
+      "prev": "fdfb2a0d8ce63ec1d19ed562514f74174b834e3e65b9f177d2aad59ce39ac771",
+      "hash": "d925b5ae068550ff8f2f2d85b319d71b78edc4591f4b0b331a7927bfff70bbe6"
+    },
+    {
+      "seq": 12,
+      "at": "2026-11-25T03:32:00Z",
+      "kind": "baseline",
+      "project": "percyscarlett",
+      "before": null,
+      "after": {
+        "name": "PercyScarlett",
+        "repo": "",
+        "status": "tracked",
+        "score": {
+          "source": "race",
+          "stage": 5,
+          "reported": 50,
+          "strict": 30,
+          "fps": null,
+          "minutes": null,
+          "control": false,
+          "confidence": "C · 第三方转述",
+          "url": "https://vuyp.github.io/gta6-pc-race/",
+          "note": "报告初始设置；截图已撤回。",
+          "missing": [
+            "同一构建、同一测试的独立可复核证据",
+            "持续游戏内20 FPS",
+            "连续30分钟无崩溃",
+            "可控角色"
+          ],
+          "halted": false,
+          "policy": "4.0",
+          "playable": false,
+          "alternatives": [
+            {
+              "source": "race",
+              "stage": 5,
+              "reported": 50,
+              "strict": 30,
+              "fps": null,
+              "minutes": null,
+              "control": false,
+              "confidence": "C · 第三方转述",
+              "url": "https://vuyp.github.io/gta6-pc-race/",
+              "note": "报告初始设置；截图已撤回。",
+              "missing": [
+                "同一构建、同一测试的独立可复核证据",
+                "持续游戏内20 FPS",
+                "连续30分钟无崩溃",
+                "可控角色"
+              ]
+            }
+          ]
+        },
+        "race": {
+          "stage": 5,
+          "verification": "第三方汇总",
+          "url": "https://vuyp.github.io/gta6-pc-race/",
+          "note": "报告初始设置；截图已撤回。"
+        }
+      },
+      "prev": "d925b5ae068550ff8f2f2d85b319d71b78edc4591f4b0b331a7927bfff70bbe6",
+      "hash": "ee156ca45e7d444a624fe9d774550256f7fe296f09d6120ca26f3b952c799a03"
+    },
+    {
+      "seq": 13,
+      "at": "2026-11-25T03:32:00Z",
+      "kind": "baseline",
+      "project": "scarlight",
+      "before": null,
+      "after": {
+        "name": "Scarlight",
+        "repo": "",
+        "status": "tracked",
+        "score": {
+          "source": "race",
+          "stage": 5,
+          "reported": 50,
+          "strict": 30,
+          "fps": null,
+          "minutes": null,
+          "control": false,
+          "confidence": "C · 第三方转述",
+          "url": "https://vuyp.github.io/gta6-pc-race/",
+          "note": "Linux/AMD 分支报告光照；未宣称可玩。",
+          "missing": [
+            "同一构建、同一测试的独立可复核证据",
+            "持续游戏内20 FPS",
+            "连续30分钟无崩溃",
+            "可控角色"
+          ],
+          "halted": false,
+          "policy": "4.0",
+          "playable": false,
+          "alternatives": [
+            {
+              "source": "race",
+              "stage": 5,
+              "reported": 50,
+              "strict": 30,
+              "fps": null,
+              "minutes": null,
+              "control": false,
+              "confidence": "C · 第三方转述",
+              "url": "https://vuyp.github.io/gta6-pc-race/",
+              "note": "Linux/AMD 分支报告光照；未宣称可玩。",
+              "missing": [
+                "同一构建、同一测试的独立可复核证据",
+                "持续游戏内20 FPS",
+                "连续30分钟无崩溃",
+                "可控角色"
+              ]
+            }
+          ]
+        },
+        "race": {
+          "stage": 5,
+          "verification": "第三方汇总",
+          "url": "https://vuyp.github.io/gta6-pc-race/",
+          "note": "Linux/AMD 分支报告光照；未宣称可玩。"
+        }
+      },
+      "prev": "ee156ca45e7d444a624fe9d774550256f7fe296f09d6120ca26f3b952c799a03",
+      "hash": "50b053f5169810432dd090dc6f7757c61ff0d20fdfc9dc5e1b60cbfd50a61ed7"
+    },
+    {
+      "seq": 14,
+      "at": "2026-11-25T03:32:00Z",
+      "kind": "baseline",
+      "project": "suri",
+      "before": null,
+      "after": {
+        "name": "suri",
+        "repo": "",
+        "status": "tracked",
+        "score": {
+          "source": "race",
+          "stage": 6,
+          "reported": 77,
+          "strict": 46,
+          "fps": 3,
+          "minutes": null,
+          "control": true,
+          "confidence": "C · 第三方转述",
+          "url": "https://vuyp.github.io/gta6-pc-race/",
+          "note": "转述约3 FPS，玩家移动；私有构建。",
+          "missing": [
+            "同一构建、同一测试的独立可复核证据",
+            "持续游戏内20 FPS",
+            "连续30分钟无崩溃"
+          ],
+          "halted": false,
+          "policy": "4.0",
+          "playable": false,
+          "alternatives": [
+            {
+              "source": "race",
+              "stage": 6,
+              "reported": 77,
+              "strict": 46,
+              "fps": 3,
+              "minutes": null,
+              "control": true,
+              "confidence": "C · 第三方转述",
+              "url": "https://vuyp.github.io/gta6-pc-race/",
+              "note": "转述约3 FPS，玩家移动；私有构建。",
+              "missing": [
+                "同一构建、同一测试的独立可复核证据",
+                "持续游戏内20 FPS",
+                "连续30分钟无崩溃"
+              ]
+            },
+            {
+              "source": "port",
+              "stage": 6,
+              "reported": 65,
+              "strict": 39,
+              "fps": null,
+              "minutes": null,
+              "control": false,
+              "confidence": "C · 第三方转述",
+              "url": "https://portwatch-vi.xyz/",
+              "note": "PortWatch 报告；非独立复测",
+              "missing": [
+                "同一构建、同一测试的独立可复核证据",
+                "持续游戏内20 FPS",
+                "连续30分钟无崩溃",
+                "可控角色"
+              ]
+            }
+          ]
+        },
+        "race": {
+          "stage": 6,
+          "verification": "第三方汇总",
+          "url": "https://vuyp.github.io/gta6-pc-race/",
+          "note": "转述约3 FPS，玩家移动；私有构建。",
+          "metrics": {
+            "fps": 3,
+            "control": true,
+            "minutes": null,
+            "note": "转述约3 FPS，玩家移动；私有构建。"
+          }
+        },
+        "port": {
+          "stage": 6,
+          "fps": 3,
+          "verification": "self-reported / tracker observation",
+          "url": "https://portwatch-vi.xyz/",
+          "note": "PortWatch 报告；非独立复测"
+        }
+      },
+      "prev": "50b053f5169810432dd090dc6f7757c61ff0d20fdfc9dc5e1b60cbfd50a61ed7",
+      "hash": "db59240185b586565c4845ff4a286d72ec9318fcca14acad59d7f9a9fb2291bb"
+    },
+    {
+      "seq": 15,
+      "at": "2026-11-25T03:32:00Z",
+      "kind": "baseline",
+      "project": "tuxbox",
+      "before": null,
+      "after": {
+        "name": "TuxBox",
+        "repo": "",
+        "status": "tracked",
+        "score": {
+          "source": "race",
+          "stage": 5,
+          "reported": 50,
+          "strict": 30,
+          "fps": null,
+          "minutes": null,
+          "control": false,
+          "confidence": "C · 第三方转述",
+          "url": "https://vuyp.github.io/gta6-pc-race/",
+          "note": "Linux 报告剧情引入阶段，随后崩溃。",
+          "missing": [
+            "同一构建、同一测试的独立可复核证据",
+            "持续游戏内20 FPS",
+            "连续30分钟无崩溃",
+            "可控角色"
+          ],
+          "halted": false,
+          "policy": "4.0",
+          "playable": false,
+          "alternatives": [
+            {
+              "source": "race",
+              "stage": 5,
+              "reported": 50,
+              "strict": 30,
+              "fps": null,
+              "minutes": null,
+              "control": false,
+              "confidence": "C · 第三方转述",
+              "url": "https://vuyp.github.io/gta6-pc-race/",
+              "note": "Linux 报告剧情引入阶段，随后崩溃。",
+              "missing": [
+                "同一构建、同一测试的独立可复核证据",
+                "持续游戏内20 FPS",
+                "连续30分钟无崩溃",
+                "可控角色"
+              ]
+            }
+          ]
+        },
+        "race": {
+          "stage": 5,
+          "verification": "第三方汇总",
+          "url": "https://vuyp.github.io/gta6-pc-race/",
+          "note": "Linux 报告剧情引入阶段，随后崩溃。"
+        }
+      },
+      "prev": "db59240185b586565c4845ff4a286d72ec9318fcca14acad59d7f9a9fb2291bb",
+      "hash": "e07f5c3912aacbdad1ec5dd16ceab33aedfb88170b4cb298d949669c62da5f1f"
+    },
+    {
+      "seq": 16,
+      "at": "2026-11-25T03:32:00Z",
+      "kind": "baseline",
+      "project": "victory",
+      "before": null,
+      "after": {
+        "name": "VIctory",
+        "repo": "Marvisak/VIctory",
+        "status": "tracked",
+        "score": {
+          "source": "race",
+          "stage": 6,
+          "reported": 66,
+          "strict": 39,
+          "fps": 1,
+          "minutes": null,
+          "control": false,
+          "confidence": "C · 第三方转述",
+          "url": "https://vuyp.github.io/gta6-pc-race/",
+          "note": "原项目报告每帧1–2秒；PR 6–8分钟不计入主分支。",
+          "missing": [
+            "同一构建、同一测试的独立可复核证据",
+            "持续游戏内20 FPS",
+            "连续30分钟无崩溃",
+            "可控角色"
+          ],
+          "halted": false,
+          "policy": "4.0",
+          "playable": false,
+          "alternatives": [
+            {
+              "source": "race",
+              "stage": 6,
+              "reported": 66,
+              "strict": 39,
+              "fps": 1,
+              "minutes": null,
+              "control": false,
+              "confidence": "C · 第三方转述",
+              "url": "https://vuyp.github.io/gta6-pc-race/",
+              "note": "原项目报告每帧1–2秒；PR 6–8分钟不计入主分支。",
+              "missing": [
+                "同一构建、同一测试的独立可复核证据",
+                "持续游戏内20 FPS",
+                "连续30分钟无崩溃",
+                "可控角色"
+              ]
+            }
+          ]
+        },
+        "race": {
+          "stage": 6,
+          "verification": "第三方汇总",
+          "url": "https://vuyp.github.io/gta6-pc-race/",
+          "note": "原项目报告每帧1–2秒；PR 6–8分钟不计入主分支。",
+          "metrics": {
+            "fps": 1,
+            "control": null,
+            "minutes": null,
+            "note": "原项目报告每帧1–2秒；PR 6–8分钟不计入主分支。"
+          }
+        }
+      },
+      "prev": "e07f5c3912aacbdad1ec5dd16ceab33aedfb88170b4cb298d949669c62da5f1f",
+      "hash": "5e941c35bc3689b12af0cf0b159b7ccff6edd12d628708e915f68f4917775187"
+    },
+    {
+      "seq": 17,
+      "at": "2026-11-25T03:32:00Z",
+      "kind": "baseline",
+      "project": "victoryfork",
+      "before": null,
+      "after": {
+        "name": "victory-fork",
+        "repo": "fxceless/victory-fork",
+        "status": "tracked",
+        "score": {
+          "source": "race",
+          "stage": 6,
+          "reported": 69,
+          "strict": 41,
+          "fps": 5,
+          "minutes": null,
+          "control": false,
+          "confidence": "C · 第三方转述",
+          "url": "https://vuyp.github.io/gta6-pc-race/",
+          "note": "主分支报告 3–5 FPS；PR 与衍生构建不计入主分支成绩。",
+          "missing": [
+            "同一构建、同一测试的独立可复核证据",
+            "持续游戏内20 FPS",
+            "连续30分钟无崩溃",
+            "可控角色"
+          ],
+          "halted": false,
+          "policy": "4.0",
+          "playable": false,
+          "alternatives": [
+            {
+              "source": "race",
+              "stage": 6,
+              "reported": 69,
+              "strict": 41,
+              "fps": 5,
+              "minutes": null,
+              "control": false,
+              "confidence": "C · 第三方转述",
+              "url": "https://vuyp.github.io/gta6-pc-race/",
+              "note": "主分支报告 3–5 FPS；PR 与衍生构建不计入主分支成绩。",
+              "missing": [
+                "同一构建、同一测试的独立可复核证据",
+                "持续游戏内20 FPS",
+                "连续30分钟无崩溃",
+                "可控角色"
+              ]
+            }
+          ]
+        },
+        "race": {
+          "stage": 6,
+          "verification": "第三方汇总",
+          "url": "https://vuyp.github.io/gta6-pc-race/",
+          "note": "主分支报告 3–5 FPS；PR 与衍生构建不计入主分支成绩。",
+          "metrics": {
+            "fps": 5,
+            "control": null,
+            "minutes": null,
+            "note": "主分支报告 3–5 FPS；PR 与衍生构建不计入主分支成绩。"
+          }
+        }
+      },
+      "prev": "5e941c35bc3689b12af0cf0b159b7ccff6edd12d628708e915f68f4917775187",
+      "hash": "11bca564da4ff886f26ecb2f2cd2e2edf31706d802d23e4c92035c2b67793e64"
+    },
+    {
+      "seq": 18,
+      "at": "2026-11-25T03:32:00Z",
+      "kind": "baseline",
+      "project": "vitoriabr",
+      "before": null,
+      "after": {
+        "name": "VItoriaBr",
+        "repo": "",
+        "status": "tracked",
+        "score": {
+          "source": "race",
+          "stage": 6,
+          "reported": 78,
+          "strict": 46,
+          "fps": 4,
+          "minutes": null,
+          "control": true,
+          "confidence": "C · 第三方转述",
+          "url": "https://vuyp.github.io/gta6-pc-race/",
+          "note": "直播转述最高4 FPS、到第二任务；并非独立实测。",
+          "missing": [
+            "同一构建、同一测试的独立可复核证据",
+            "持续游戏内20 FPS",
+            "连续30分钟无崩溃"
+          ],
+          "halted": false,
+          "policy": "4.0",
+          "playable": false,
+          "alternatives": [
+            {
+              "source": "race",
+              "stage": 6,
+              "reported": 78,
+              "strict": 46,
+              "fps": 4,
+              "minutes": null,
+              "control": true,
+              "confidence": "C · 第三方转述",
+              "url": "https://vuyp.github.io/gta6-pc-race/",
+              "note": "直播转述最高4 FPS、到第二任务；并非独立实测。",
+              "missing": [
+                "同一构建、同一测试的独立可复核证据",
+                "持续游戏内20 FPS",
+                "连续30分钟无崩溃"
+              ]
+            }
+          ]
+        },
+        "race": {
+          "stage": 6,
+          "verification": "第三方汇总",
+          "url": "https://vuyp.github.io/gta6-pc-race/",
+          "note": "直播转述最高4 FPS、到第二任务；并非独立实测。",
+          "metrics": {
+            "fps": 4,
+            "control": true,
+            "minutes": null,
+            "note": "直播转述最高4 FPS、到第二任务；并非独立实测。"
+          }
+        }
+      },
+      "prev": "11bca564da4ff886f26ecb2f2cd2e2edf31706d802d23e4c92035c2b67793e64",
+      "hash": "fa8c6341e5de44ca3d832dfc69a27db9ee82c29a300931394ffe201b6f4a8e6d"
+    },
+    {
+      "seq": 19,
+      "at": "2026-11-25T03:32:00Z",
+      "kind": "baseline",
+      "project": "xbox2windows",
+      "before": null,
+      "after": {
+        "name": "Xbox2Windows",
+        "repo": "",
+        "status": "tracked",
+        "score": {
+          "source": "race",
+          "stage": 5,
+          "reported": 50,
+          "strict": 30,
+          "fps": null,
+          "minutes": null,
+          "control": false,
+          "confidence": "C · 第三方转述",
+          "url": "https://vuyp.github.io/gta6-pc-race/",
+          "note": "诊断运行到载入阶段。",
+          "missing": [
+            "同一构建、同一测试的独立可复核证据",
+            "持续游戏内20 FPS",
+            "连续30分钟无崩溃",
+            "可控角色"
+          ],
+          "halted": false,
+          "policy": "4.0",
+          "playable": false,
+          "alternatives": [
+            {
+              "source": "race",
+              "stage": 5,
+              "reported": 50,
+              "strict": 30,
+              "fps": null,
+              "minutes": null,
+              "control": false,
+              "confidence": "C · 第三方转述",
+              "url": "https://vuyp.github.io/gta6-pc-race/",
+              "note": "诊断运行到载入阶段。",
+              "missing": [
+                "同一构建、同一测试的独立可复核证据",
+                "持续游戏内20 FPS",
+                "连续30分钟无崩溃",
+                "可控角色"
+              ]
+            }
+          ]
+        },
+        "race": {
+          "stage": 5,
+          "verification": "第三方汇总",
+          "url": "https://vuyp.github.io/gta6-pc-race/",
+          "note": "诊断运行到载入阶段。"
+        }
+      },
+      "prev": "fa8c6341e5de44ca3d832dfc69a27db9ee82c29a300931394ffe201b6f4a8e6d",
+      "hash": "3d59919a7b9b4024978b77f759904543606691497852cbdd90a6c31a6d4b64a9"
+    },
+    {
+      "seq": 20,
+      "at": "2026-11-25T03:32:00Z",
+      "kind": "baseline",
+      "project": "xboxemulator",
+      "before": null,
+      "after": {
+        "name": "xbox-emulator",
+        "repo": "",
+        "status": "tracked",
+        "score": {
+          "source": "race",
+          "stage": 3,
+          "reported": 22,
+          "strict": 13,
+          "fps": null,
+          "minutes": null,
+          "control": false,
+          "confidence": "C · 第三方转述",
+          "url": "https://vuyp.github.io/gta6-pc-race/",
+          "note": "二手消息称初始化图形设备。",
+          "missing": [
+            "同一构建、同一测试的独立可复核证据",
+            "持续游戏内20 FPS",
+            "连续30分钟无崩溃",
+            "可控角色"
+          ],
+          "halted": false,
+          "policy": "4.0",
+          "playable": false,
+          "alternatives": [
+            {
+              "source": "race",
+              "stage": 3,
+              "reported": 22,
+              "strict": 13,
+              "fps": null,
+              "minutes": null,
+              "control": false,
+              "confidence": "C · 第三方转述",
+              "url": "https://vuyp.github.io/gta6-pc-race/",
+              "note": "二手消息称初始化图形设备。",
+              "missing": [
+                "同一构建、同一测试的独立可复核证据",
+                "持续游戏内20 FPS",
+                "连续30分钟无崩溃",
+                "可控角色"
+              ]
+            }
+          ]
+        },
+        "race": {
+          "stage": 3,
+          "verification": "第三方汇总",
+          "url": "https://vuyp.github.io/gta6-pc-race/",
+          "note": "二手消息称初始化图形设备。"
+        }
+      },
+      "prev": "3d59919a7b9b4024978b77f759904543606691497852cbdd90a6c31a6d4b64a9",
+      "hash": "c78d2cf9d370571ecf51f5147c31f26819aba77583fcd22bdc15b9c19548cc7b"
+    },
+    {
+      "seq": 21,
+      "at": "2026-11-25T03:32:00Z",
+      "kind": "baseline",
+      "project": "xcl",
+      "before": null,
+      "after": {
+        "name": "XCL",
+        "repo": "ivall/xcl",
+        "status": "tracked",
+        "score": {
+          "source": "race",
+          "stage": 5,
+          "reported": 50,
+          "strict": 30,
+          "fps": null,
+          "minutes": null,
+          "control": false,
+          "confidence": "C · 第三方转述",
+          "url": "https://vuyp.github.io/gta6-pc-race/",
+          "note": "菜单阶段；未报告实际玩法。",
+          "missing": [
+            "同一构建、同一测试的独立可复核证据",
+            "持续游戏内20 FPS",
+            "连续30分钟无崩溃",
+            "可控角色"
+          ],
+          "halted": false,
+          "policy": "4.0",
+          "playable": false,
+          "alternatives": [
+            {
+              "source": "race",
+              "stage": 5,
+              "reported": 50,
+              "strict": 30,
+              "fps": null,
+              "minutes": null,
+              "control": false,
+              "confidence": "C · 第三方转述",
+              "url": "https://vuyp.github.io/gta6-pc-race/",
+              "note": "菜单阶段；未报告实际玩法。",
+              "missing": [
+                "同一构建、同一测试的独立可复核证据",
+                "持续游戏内20 FPS",
+                "连续30分钟无崩溃",
+                "可控角色"
+              ]
+            }
+          ]
+        },
+        "race": {
+          "stage": 5,
+          "verification": "第三方汇总",
+          "url": "https://vuyp.github.io/gta6-pc-race/",
+          "note": "菜单阶段；未报告实际玩法。"
+        }
+      },
+      "prev": "c78d2cf9d370571ecf51f5147c31f26819aba77583fcd22bdc15b9c19548cc7b",
+      "hash": "67c7ac7e04e6046072bcc5018aa66d09801e03ada9022691a2e295c3586a2711"
+    },
+    {
+      "seq": 22,
+      "at": "2026-11-25T03:32:00Z",
+      "kind": "baseline",
+      "project": "ztrx",
+      "before": null,
+      "after": {
+        "name": "ztrx",
+        "repo": "Zettrox/ztrx",
+        "status": "tracked",
+        "score": {
+          "source": "race",
+          "stage": 6,
+          "reported": 87,
+          "strict": 52,
+          "fps": 3,
+          "minutes": 90,
+          "control": true,
+          "confidence": "C · 第三方转述",
+          "url": "https://vuyp.github.io/gta6-pc-race/",
+          "note": "开场任务 1–3 FPS，报告超过90分钟无崩溃。",
+          "missing": [
+            "同一构建、同一测试的独立可复核证据",
+            "持续游戏内20 FPS"
+          ],
+          "halted": false,
+          "policy": "4.0",
+          "playable": false,
+          "alternatives": [
+            {
+              "source": "race",
+              "stage": 6,
+              "reported": 87,
+              "strict": 52,
+              "fps": 3,
+              "minutes": 90,
+              "control": true,
+              "confidence": "C · 第三方转述",
+              "url": "https://vuyp.github.io/gta6-pc-race/",
+              "note": "开场任务 1–3 FPS，报告超过90分钟无崩溃。",
+              "missing": [
+                "同一构建、同一测试的独立可复核证据",
+                "持续游戏内20 FPS"
+              ]
+            },
+            {
+              "source": "port",
+              "stage": 6,
+              "reported": 65,
+              "strict": 39,
+              "fps": null,
+              "minutes": null,
+              "control": false,
+              "confidence": "C · 第三方转述",
+              "url": "https://portwatch-vi.xyz/",
+              "note": "PortWatch 报告；非独立复测",
+              "missing": [
+                "同一构建、同一测试的独立可复核证据",
+                "持续游戏内20 FPS",
+                "连续30分钟无崩溃",
+                "可控角色"
+              ]
+            }
+          ]
+        },
+        "race": {
+          "stage": 6,
+          "verification": "第三方汇总",
+          "url": "https://vuyp.github.io/gta6-pc-race/",
+          "note": "开场任务 1–3 FPS，报告超过90分钟无崩溃。",
+          "metrics": {
+            "fps": 3,
+            "control": true,
+            "minutes": 90,
+            "note": "开场任务 1–3 FPS，报告超过90分钟无崩溃。"
+          }
+        },
+        "port": {
+          "stage": 6,
+          "fps": 3,
+          "verification": "self-reported / tracker observation",
+          "url": "https://portwatch-vi.xyz/",
+          "note": "PortWatch 报告；非独立复测"
+        }
+      },
+      "prev": "67c7ac7e04e6046072bcc5018aa66d09801e03ada9022691a2e295c3586a2711",
+      "hash": "37ef56a964d312ba174aa1f42dc75b098a71a7a6103db010ce49ec2ceb8bdc6e"
+    }
+  ],
+  "audit_policy": "4.0"
+}
