@@ -1,7 +1,7 @@
 """Evidence-only scoring and append-only observation ledger. No game files accessed."""
 import hashlib,json,copy,math
 BASE=[0,5,12,22,35,50,65,65]
-POLICY='4.0'
+POLICY='5.2'
 def canonical(x):return json.dumps(x,sort_keys=True,ensure_ascii=False,separators=(',',':'),allow_nan=False)
 def digest(x):return hashlib.sha256(canonical(x).encode()).hexdigest()
 def number(x,hi):return x if type(x) in (int,float) and math.isfinite(x) and 0<x<=hi else 0
@@ -14,14 +14,23 @@ def score(p):
   fps=number(m.get('fps'),240) if st==6 else 0; minutes=number(m.get('minutes'),100000) if st==6 else 0; control=st==6 and m.get('control') is True
   # These are third-party summaries even if they cite primary material. No independence assumed.
   raw=round(BASE[st]+15*min(fps/20,1)+10*min(minutes/30,1)+10*control)
-  raw=min(99,raw); strict=math.floor(raw*.60)
-  options.append(dict(source=src,stage=st,reported=raw,strict=strict,fps=fps or None,minutes=minutes or None,control=control,confidence='C · 第三方转述',url=d.get('url',''),note=d.get('note',''),missing=['同一构建、同一测试的独立可复核证据']+(['持续游戏内20 FPS'] if fps<20 else [])+(['连续30分钟无崩溃'] if minutes<30 else [])+(['可控角色'] if not control else [])))
+  raw=min(99,raw)
+  # Separate milestone and measurement quality. All are secondary reports; no bonus for duplicate reports.
+  # The weights are explicit editorial rules, not statistical probabilities.
+  components={'stage':BASE[st]*.65,'fps':15*min(fps/20,1)*(.55 if m.get('fps_basis')=='session_average' else .45),'stability':10*min(minutes/30,1)*.55,'control':10*control*.55}
+  strict=min(99,math.floor(sum(components.values())))
+  options.append(dict(source=src,stage=st,reported=raw,strict=strict,source_health=d.get('source_health','unknown'),fps=fps or None,fps_basis=m.get('fps_basis'),minutes=minutes or None,control=control,confidence='C · 第三方转述',components=components,url=d.get('url',''),note=d.get('note',''),missing=['同一构建、同一测试的独立可复核证据']+(['持续游戏内20 FPS'] if fps<20 else [])+(['连续30分钟无崩溃'] if minutes<30 else [])+(['可控角色'] if not control else [])))
  result=copy.deepcopy(max(options,key=lambda x:(x['strict'],x['reported'],x['stage'],x['source']=='race'),default=dict(source='',stage=0,reported=0,strict=0,fps=None,minutes=None,control=False,confidence='U · 未知',url='',note='',missing=['无可评分证据'])))
- result.update(halted=bool(p.get('race',{}).get('halted') or p.get('github',{}).get('archived')),policy=POLICY,playable=False,alternatives=options)
+ halted=bool((p.get('race',{}).get('listing')!='not_listed_in_latest_successful_scan' and p.get('race',{}).get('halted')) or p.get('github',{}).get('archived'))
+ unavailable=bool((p.get('race',{}).get('listing')!='not_listed_in_latest_successful_scan' and p.get('race',{}).get('unavailable')) or (p.get('github_error') and 'Repository metadata: HTTP Error 404' in p['github_error']))
+ listed=any(p.get(src) and p[src].get('listing')!='not_listed_in_latest_successful_scan' for src in ('race','port'))
+ status='paused' if halted else 'unavailable' if unavailable else 'unlisted' if not listed else 'unverified' if not result['stage'] else 'tracked'
+ result.update(halted=halted,status=status,eligible=status=='tracked',policy=POLICY,playable=False,alternatives=options)
  return result
 
-def view(p):
- out={'name':p.get('name'),'repo':p.get('repo',''),'status':'paused' if score(p)['halted'] else 'tracked','score':score(p)}
+def view(p,stored=False):
+ scored=copy.deepcopy(p.get('audit_score')) if stored and p.get('audit_score') else score(p)
+ out={'name':p.get('name'),'repo':p.get('repo',''),'status':scored.get('status','paused' if scored['halted'] else 'tracked'),'score':scored}
  for src in ('race','port'):
   if p.get(src):out[src]={k:v for k,v in p[src].items() if k not in ('assessment',)}
  if p.get('github'):out['repository']={k:v for k,v in p['github'].items() if k not in ('checked','stars')}
