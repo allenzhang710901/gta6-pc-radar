@@ -35,15 +35,36 @@ def category(t):
  for pattern,name in [(r'dmca|takedown|copyright|下架','版权动态'),(r'crash|stability|hang|稳定','稳定性'),(r'fps|performance|帧率|optim','性能'),(r'shader|render|lighting|texture|渲染','图形'),(r'mission|gameplay|controller|input|任务','玩法'),(r'boot|loader|menu|启动','启动')]:
   if re.search(pattern,t,re.I):return name
  return '开发动态'
+def port_reference_score(e):
+ # Reimplementation of publicly documented PortWatch scoring, not our own index.
+ g=e.get('gta') or {}; gw=e.get('groundwork') or {}
+ def clamp(v):
+  try:
+   x=float(v);return min(1,max(0,x)) if __import__('math').isfinite(x) else 0
+  except (ValueError,TypeError):return 0
+ value=10*sum(w*clamp(gw.get(k)) for k,w in [('loader',.2),('shaders',.28),('graphics',.32),('proven',.2)])
+ complete=True
+ for j,k in enumerate(('loads','boots','menu','world','playable'),1):
+  f=clamp(g.get(k));value=max(value,value+f*(j*10-value))
+  if f<1:complete=False;break
+ if complete:value=50+50*(.35*clamp(g.get('story'))+.25*clamp(g.get('render'))+.2*clamp((audit.number(g.get('fps'),100000) or 0)/30)+.2*(audit.stability_fraction(g.get('stability')) or 0))
+ if type(e.get('manualScore')) in (int,float) and __import__('math').isfinite(e['manualScore']):value=min(100,max(0,e['manualScore']))
+ return round(value+1e-10,1)
+
+def port_rankings(efforts):
+ entries=[e for e in efforts if e.get('tier')=='tracked' and not e.get('nuked') and isinstance(e.get('repo'),str) and '/' in e['repo']]
+ entries.sort(key=lambda e:(-port_reference_score(e),-(audit.number((e.get('stats') or {}).get('stars'),10**9) or 0)))
+ return {str(e.get('id')):i+1 for i,e in enumerate(entries)}
+
 def port_parse(data):
  if not isinstance(data.get('efforts'),list):raise ValueError('PortWatch schema changed')
- p={}; ev=[]
+ p={}; ev=[]; ranks=port_rankings(data['efforts'])
  for e in data['efforts']:
   name=e.get('name') or e.get('id'); k=key(name); g=e.get('gta') or {}; repo=e.get('repo') or ''
   if not name:continue
   stage=6 if g.get('world')==1 or g.get('playable')==1 else 5 if g.get('menu')==1 else 2 if g.get('boots')==1 else 1 if g.get('loads')==1 else 0
   repo=repo if isinstance(repo,str) and re.fullmatch(r'[\w.-]+/[\w.-]+',repo) else ''
-  k=project_key(p,k,{'repo':repo});p[k]=dict(name=name,repo=repo,port=dict(stage=stage,assessment=e.get('assessedAt') or data.get('updated'),verification=e.get('verification','unknown'),fps=g.get('fps'),world=g.get('world'),story=g.get('story'),render=g.get('render'),stability=g.get('stability'),tier=e.get('tier'),basedOn=e.get('basedOn',[]),url='https://portwatch-vi.xyz/#effort-'+str(e.get('id','')),note=str(e.get('evidence',''))[:150]))
+  k=project_key(p,k,{'repo':repo});p[k]=dict(name=name,repo=repo,port=dict(stage=stage,assessment=e.get('assessedAt') or data.get('updated'),verification=e.get('verification','unknown'),fps=g.get('fps'),world=g.get('world'),playable=g.get('playable'),gpu=[x for x in (e.get('gpu') or []) if x in ('AMD','NVIDIA','Intel')],reference_score=port_reference_score(e),reference_rank=ranks.get(str(e.get('id'))),archived=bool((e.get('stats') or {}).get('archived')),unavailable=bool(e.get('nuked') or (e.get('stats') or {}).get('missing')),story=g.get('story'),render=g.get('render'),stability=g.get('stability'),tier=e.get('tier'),basedOn=e.get('basedOn',[]),url='https://portwatch-vi.xyz/#effort-'+str(e.get('id','')),note=str(e.get('summary') or e.get('evidence') or '')[:1500]))
  for n in data.get('news',[]):
   title=n.get('title',''); detail=str(n.get('summary') or n.get('description') or n.get('body') or ''); ev.append(event('PortWatch',title,n.get('date'), 'https://portwatch-vi.xyz/',category=category(title+' '+detail),note=detail[:1500],eid=ident('port-news',n.get('id') or title,detail)))
  for n in data.get('dmca',[]):ev.append(event('PortWatch','公开版权通知',n.get('date'),n.get('url'),category='版权动态',eid=ident('dmca',n.get('path'))))
@@ -113,7 +134,7 @@ def race_parse(page):
    link=h.find('a',href=True); repo=ghrepo(link['href']) if link else ''
    # Extract only from the project's own report, never from fork/PR/cutscene clauses.
    st=int(m.group(1)); metrics=race_metrics(t,st)
-   p[project_key(p,key(title),{'repo':repo})]=dict(name=title,repo=repo,race=dict(stage=st,url=RACE,assessment=checked,verification='第三方汇总',note=t[:460],metrics=metrics,halted=bool(re.search(r'\bhalted since\b|\bproject (?:is|was) halted\b|\bdevelopment (?:has )?(?:stopped|ceased)\b|\bbuild has been taken down\b',t,re.I)),unavailable=bool(re.search(r'\b(?:repo(?:sitory)?|GitHub (?:repo(?:sitory)?|page)) (?:is |now |has |no longer )*(?:unavailable|not responding|stopped responding|stopped answering|no longer answers|returns? (?:a )?404|deleted|gone|inaccessible)\b',t,re.I))))
+   p[project_key(p,key(title),{'repo':repo})]=dict(name=title,repo=repo,race=dict(stage=st,reference_rank=len(p)+1,url=RACE,assessment=checked,verification='第三方汇总',note=t[:460],metrics=metrics,halted=bool(re.search(r'\bhalted since\b|\bproject (?:is|was) halted\b|\bdevelopment (?:has )?(?:stopped|ceased)\b|\bbuild has been taken down\b',t,re.I)),unavailable=bool(re.search(r'\b(?:repo(?:sitory)?|GitHub (?:repo(?:sitory)?|page)) (?:is |now |has |no longer )*(?:unavailable|not responding|stopped responding|stopped answering|no longer answers|returns? (?:a )?404|deleted|gone|inaccessible)\b',t,re.I))))
   elif mode=='updates':
    if title:
     parts=[]
